@@ -1,0 +1,128 @@
+
+
+    p
+    {
+        background-color: crimson;
+        color: ghostwhite;
+    }
+    body{
+      
+        background-color: white;
+    }
+    li{
+        color: teal;
+    }
+
+    .fonte1{
+        color: purple;
+        font-size: 30px;
+        font-family: sans-serif;
+
+    }
+  
+    .cortabela{
+        width: "100%";
+        border: "1";
+        border-color: lightgray;
+        background-color: whitesmoke;
+        color: teal;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #area{
+        position: relative;
+        left: 37%;
+        top: 1em;
+        width: 320px;
+        height: 270px;
+
+    }
+
+    legend{
+        color: teal;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    label{
+        color: teal;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    #formulario input.campo_nome{
+        background-color: lightgray;
+        position: absolute;
+        margin-top: 2px;
+        width: 240px;
+        color: teal;
+        font-size: 12px;
+    }
+
+    #formulario input.campo_email{
+        background-color: lightgray;
+        position: absolute;
+        margin-top: 2px;
+        width: 240px;
+        color: teal;
+        font-size: 12px;
+    }
+
+    #formulario input.campo_senha{
+        background-color: lightgray;
+        position: absolute;
+        margin-top: 2px;
+        width: 100px;
+        color: teal;
+        font-size: 12px;
+    }
+
+    
+    #formulario textarea.campo_obs{
+        background-color: lightgray;
+        position: absolute;
+        margin-top: 2px;
+        width: 100px;
+        color: teal;
+        font-size: 12px;
+    }
+
+    .container{
+        border:3px solid yellowgreen;
+        min-height: 500px;
+    }
+
+    .div1{
+        border:2px solid red;
+    }
+
+    .div2{
+        border:2px solid green;
+    }
+
+    .div3{
+        border:2px solid yellow;
+    }
+    .div4{
+        border:2px solid blue;
+    }
+
+    .div5{
+        border:2px solid orange;
+    }
+    .div6{
+        border:2px solid yellow;
+    }
+    .div7{
+        border:2px solid blue;
+    }
+
+        
+
+
+
+
+
+
+        
+    

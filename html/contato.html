@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="..\css\estilos.css"> <!--chamando o arquivo de estilos-->
+
+    <title>
+
+        Gama Academy - Contato
+    </title>
+
+    <body>
+
+        <img src="..\imagens\logo_gama.png" width="40%" height="20%">
+
+
+
+        <table border="0" align="center" cellpadding="5px" cellspacing="2px" width="100%">
+            <tr>
+                <td>
+                    <a href="..\html\index.html">
+                        <img src="..\imagens\logo.png" width="10%"></a>
+                </td>
+                <td align="center">
+                    <a href="https://gama.academy/sobre/" target="blank">
+                        QUEM SOMOS
+                    </a></td>
+                <td align="center"><a href="https://gama.academy/sobre/" target="blank">
+                        CURSOS ONLINE</a></td>
+                <td align="center">GAMA EXPERIENCE</td>
+                <td align="center">PARA EMPRESAS</td>
+                <td align="center" target="blank">
+                    <a href="..\html\contato.html">
+
+                        CONTATO</a></td>
+                <td align="center">CONTEUDO</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <div id="area">
+
+
+            <form id="formulario" method="POST">
+                <fieldset>
+
+                    <legend> Formulario para Cursos
+                    </legend>
+
+                    <label>Nome: </label>
+                    <input class ="campo_nome"type="text" name="nome" required> <br><br>
+
+                    <label>E-mail: </label>
+                    <input class ="campo_email" type="email" name="email" required> <br><br>
+
+                    <label>Senha: </label>
+                    <input class ="campo_senha" type="password" name="senha" required> <br><br>
+
+                    <label>Data de escolha do curso: </label>
+                    <input type="date" name="data" required> <br><br>
+
+                    <label>Informe o genero: </label><br>
+                    <input class="opt" type="radio" name="opcao" value="opt1"> Feminino <br>
+                    <input class="opt" type="radio" name="opcao" value="opt1"> Masculino<br><br>
+
+                    <label>Teste check box: </label><br>
+                    <input class="opt" type="checkbox" name="opcao" value="opt2"> Selecione a toa <br>
+                    <br><br>
+
+                    <label>Escolha o curso: </label><br>
+                    <select>
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                        <option value="JS">Java Script</option>
+                        <option value="ASP">ASP</option>
+
+                    </select> <br><br>
+
+                    <label>Comentários: </label>
+                    <textarea  class ="campo_obs" name="obs" cols="35" rows="3"> 
+                        </textarea>
+                        <br><br><br>
+                    <label>Envie o arquivo desejado: </label>
+                    <input type="file" name="anexo"> <br><br>
+
+
+
+                    <input type="submit" value="Enviar">
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</header>
+
+</html>
